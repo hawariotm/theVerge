@@ -1,20 +1,40 @@
 /* line 1, ../_partials/_commom.scss */
+body {
+  font-family: "Raleway" ,sans-serif;
+}
+
+/* line 6, ../_partials/_commom.scss */
 #pageheader {
   position: fixed;
   width: 100%;
   height: 60px;
-  background-color: red;
+  background-color: #EA613F;
 }
 
-/* line 8, ../_partials/_commom.scss */
+/* line 13, ../_partials/_commom.scss */
 #logo {
   float: left;
 }
 
-/* line 12, ../_partials/_commom.scss */
+/* line 17, ../_partials/_commom.scss */
 #heading {
-  height: 60px;
+  height: 75px;
   float: left;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+/* line 24, ../_partials/_commom.scss */
+#art {
+  float: right;
+  height: 60px;
+  width: 79px;
+}
+
+/* line 31, ../_partials/_commom.scss */
+li {
+  list-style: none;
+  color: white;
 }
 
 /* line 4, ../sass/style.scss */
@@ -22,5 +42,108 @@ i.material-icons {
   color: white;
   margin-top: 13px;
   margin-left: 9px;
-  font-size: 31px;
+  font-size: 33px;
+}
+
+/* line 10, ../sass/style.scss */
+.logo1 {
+  height: 52%;
+}
+
+/* line 14, ../sass/style.scss */
+.link1 {
+  margin-left: -15px;
+  font-size: 29.5px;
+  margin-top: -7px;
+}
+
+/* line 21, ../sass/style.scss */
+.link2 {
+  margin-left: -33px;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+/* line 28, ../sass/style.scss */
+#art_wrapper {
+  font-family: "Raleway", "sans-serif";
+  border-left: 1px solid #fff;
+}
+
+/* line 32, ../sass/style.scss */
+#drawer {
+  font-family: "Raleway", "sans-serif";
+  position: absolute;
+  top: -63px;
+  padding-top: 50px;
+  height: auto;
+  width: 246px;
+  bottom: 34px;
+  transition: 1s;
+  left: -250px;
+  z-index: 2;
+}
+
+/* line 45, ../sass/style.scss */
+#drawer.right {
+  transition: 1s;
+  left: 0px;
+}
+
+/* line 50, ../sass/style.scss */
+.signup {
+  margin-top: 11px;
+  padding: 14px;
+  margin-left: -42px;
+  background-color: black;
+  border-bottom: 1px solid grey;
+}
+
+/* line 58, ../sass/style.scss */
+.signpic {
+  width: 23%;
+}
+
+/* line 62, ../sass/style.scss */
+a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 17px;
+}
+
+/* line 69, ../sass/style.scss */
+#drawer ul {
+  margin-top: 0;
+}
+
+/* line 72, ../sass/style.scss */
+.list {
+  background-color: #222;
+  padding: 8px;
+  border-bottom: 1px solid grey;
+  margin-left: -40px;
+}
+
+/* line 80, ../sass/style.scss */
+.alink {
+  margin-left: 56px;
+  color: white;
+}
+
+/* line 86, ../sass/style.scss */
+.list1 {
+  background-color: black;
+  padding: 15px;
+}
+
+/* line 91, ../sass/style.scss */
+.fa {
+  margin-left: 31px;
+}
+
+/* line 95, ../sass/style.scss */
+a:hover {
+  color: red;
 }

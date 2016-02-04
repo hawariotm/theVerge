@@ -5,6 +5,94 @@ i.material-icons{
 	color: white;
     margin-top: 13px;
     margin-left: 9px;
-    font-size: 31px;
+    font-size: 33px;
 }
+.logo1
+{
+	height:52%;
+}
+.link1
+{
+	    margin-left: -15px;
+    font-size: 29.5px;
+    margin-top: -7px;
+   
+}
+.link2
+{
+	margin-left: -33px;
+    font-size: 8px;
+    font-weight: bold;
 
+}
+#art_wrapper{
+	  font-family: "Raleway", "sans-serif";
+	 border-left: 1px solid #fff;
+}
+  #drawer {
+  	 font-family: "Raleway", "sans-serif";
+    position: absolute;
+        top: -63px;
+        padding-top: 50px;
+        height: auto;
+        width: 246px;
+      
+         bottom: 34px;
+        transition: 1s;
+        left: -250px;
+        z-index: 2;
+    }
+      #drawer.right{
+        transition: 1s;
+        left:0px;
+        }
+
+    .signup
+    {
+    	margin-top: 11px;
+    padding: 14px;
+    margin-left: -42px;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    }
+    .signpic
+    {
+    	    width: 23%;
+    }
+    a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none;
+     font-size: 10px;
+     margin-left: 17px;
+    }
+    #drawer ul{
+    	margin-top: 0;
+    }
+    .list
+    {
+    	background-color:#222;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+    margin-left: -40px;
+
+    }
+    .alink
+    {
+    	    margin-left: 56px;
+    	    color: white;
+
+    }
+    .list1
+    {
+    	background-color: black;
+    padding: 15px;
+}
+ .fa
+ {
+margin-left:31px;
+ }
+ a:hover
+ {
+ 	color:red;
+ }

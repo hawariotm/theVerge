@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>verge</title>
-	   <link rel = "stylesheet" type = "text/css" href = "./stylesheets/style.css"/>
+    <head>
+        <title>
+            verge
+        </title>
+        <link rel = "stylesheet" type = "text/css" href = "./stylesheets/style.css"/>
         <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
         </script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
         <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
         <!-- Material Design icon font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-</head>
-<body>
-<header id ="pageheader">
-<div id = "logo">
-<i class="material-icons">menu</i>
-</div>
-<div id="heading">
-	the verge
+    </head>
+    <body>
+        <header id ="pageheader">
+            <div id = "logo">
+                <i class="material-icons">
+                    menu
+                </i>
+            </div>
+            <div id="heading">
+                <img src="./images/logo.png" class="logo1"/>
+            </div>
+            <div id="art">
+                <div id="art_wrapper">
+                    <ul class="artlist">
+                        <li class="link1">
+                            04
+                        </li>
+                        <li class="link2">
+                            NEW ARTICLES
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+                 <nav id="drawer" >
+                      <ul>
+                          <li class ="signup"><img src="./images/profile.png" class="signpic"/>
+                          <a href="#">LOGIN | SIGNUP</a></li>
 
-</div>
+                          <li class="list"><a class = "alink" href="#">HOME</a></li>
+                          <li class="list"><a class = "alink" href="#">LONGFORM</a></li>
+                          <li class="list"><a class = "alink" href="#">REVIEWS</a></li>
+                          <li class="list"><a class = "alink" href="#">VIDEO</a></li>
+                          <li class="list"><a class = "alink" href="#">TECH</a></li>
+                          <li class="list"><a class = "alink" href="#">SCIENCE</a></li>
+                          <li class="list"><a class = "alink" href="#">CARS</a></li>
+                          <li class="list"><a class = "alink" href="#">ENTERTAINMENT</a></li>
+                          <li class="list"><a class = "alink" href="#">DESIGN</a></li>
+                        <li class="list list1">
+                          <i class="fa fa-facebook"></i>
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-youtube-play"></i>
+                          <i class="fa fa-rss"></i>
+                         </li>
+                       </ul>
+                 </nav>
+         <script type="text/javascript">
+			     $("#logo").click(function(e) {
+			     $('#drawer').addClass('right');
+			       e.stopPropagation();
+			        });
+			        $(document).click(function() {
+			        	
+			        	 $('#drawer').removeClass('right');
+        	
+         });
+   
+        </script>
 
-</header>
 
-</body>
+    </body>
 </html>
